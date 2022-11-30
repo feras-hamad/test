@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'test1.dart';
+import 'test2.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MyApp2());
 }
 
 class MyApp extends StatelessWidget {
@@ -26,6 +28,7 @@ class MyApp extends StatelessWidget {
             style: TextStyle(backgroundColor: Colors.red),
             
           ),
+          
         ),
       ),
     );
